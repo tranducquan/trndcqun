@@ -1,0 +1,10 @@
+{
+	"name": "root",
+	"private": true,
+	"scripts": {
+		"dev:site": "pnpm --filter site dev",
+		"dev:admin": "pnpm --filter admin dev",
+		"build:site": "pnpm --filter site build",
+		"build:admin": "pnpm --filter admin build"
+	}
+}
